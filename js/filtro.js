@@ -10,13 +10,13 @@ $(function () {
         }
     });
 
-    let equipo = $('#equipo').offset().top,
+        let equipo = $('#equipos').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
 
     window.addEventListener('resize', function(){
-        let equipo = $('#equipo').offset().top,
+        let equipo = $('#equipos').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
